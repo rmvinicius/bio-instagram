@@ -10,27 +10,29 @@ body {
     background-color: #266D82;
 }
 
+/*
 body::after {
     content: "";
     background: url(background.png);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    filter: blur(3px);
-    opacity: 0.5;
+    position: absolute;
+    z-index: -1; 
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    position: absolute;
-    z-index: -1;
+    filter: blur(3px);
+    opacity: 0.5;
 }
+*/
 
 .container {
     text-align: center;
     width: 350px;
-    margin: 60px auto;
+    margin: 60px auto 0px;
 }
 
 img {
