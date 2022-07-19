@@ -97,6 +97,8 @@ ul li a {
 
 ul li a:hover {
     background-color: #266D82;
+    color: white;
+    border: 1px solid white;
 }
 
 footer {
